@@ -17,8 +17,8 @@ end
 
 
 
-def find_the_cheese (type_cheese)
-  potentially_cheesy_items.find do |type_cheese|
+def find_the_cheese (maybe_cheese)
+  matbe_cheesy.find do |type_cheese|
     cheeses.include?(cheese)
   end
 end
